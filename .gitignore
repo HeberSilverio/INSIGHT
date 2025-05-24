@@ -1,0 +1,41 @@
+# Ignora node_modules (pacotes do Node.js)
+node_modules/
+
+.cache_ggshield
+# Ignora arquivos de ambiente
+.env
+.env.*
+
+# Ignora build e logs
+dist/
+build/
+logs/
+*.log
+
+# Ignora banco local e arquivos temporários
+*.sqlite
+*.db
+*.pid
+*.seed
+*.tmp
+
+# Ignora configurações do sistema e do editor
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# Ignora arquivos de testes
+coverage/
+.nyc_output/
+
+# Ignora pastas específicas do projeto
+credenciais/
+segredos/
+arquivos-privados/
+CLIENTES/
+ESTRUTURA-PROPRIA/
+
+# Ignora pastas de output do n8n
+output/
+executions/
